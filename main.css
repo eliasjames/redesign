@@ -1,0 +1,27 @@
+body {
+  margin: 1em;
+}
+body * {
+  font-family: "depot-new-web", 'Oswald', sans-serif;
+  font-weight: 330;
+}
+.main-content {
+  margin: 0 auto;
+  max-width: 55em;
+}
+.experience .employer ol li {
+  margin-bottom: 7px;
+}
+.experience .employer ol > li > div:first-child {
+  border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 5px;
+}
+.experience .employer h4 {
+  margin: 0;
+}
+.experience .employer p {
+  margin-bottom: 3px;
+}
+.experience .employer ol li span {
+  font-size: 16px;
+}
