@@ -2,26 +2,40 @@ body {
   margin: 1em;
 }
 body * {
-  font-family: "depot-new-web", 'Oswald', sans-serif;
-  font-weight: 330;
+  font-family: Geneva, Verdana, sans-serif;
 }
-.main-content {
+h1, h2, h3, h4, h4 + span {
+  font-family: "depot-new-web", 'Oswald', sans-serif;
+}
+h4, h4 + span {
+  color: dimgray;
+}
+main {
   margin: 0 auto;
   max-width: 55em;
 }
-.experience .employer ol li {
+li {
   margin-bottom: 7px;
 }
-.experience .employer ol > li > div:first-child {
+li > div:first-child {
   border-bottom: 1px solid #C0C0C0;
   margin-bottom: 5px;
 }
-.experience .employer h4 {
+h4 {
   margin: 0;
 }
-.experience .employer p {
+p {
   margin-bottom: 3px;
 }
-.experience .employer ol li span {
+li span {
   font-size: 16px;
+}
+.about-me li {
+  margin-bottom: 0;
+}
+.personal-summary ul {
+  padding-left: 25px;
+}
+.experience h2 {
+  margin-top: 5px;
 }
