@@ -2,10 +2,10 @@ body {
   margin: 1em;
 }
 body * {
-  font-family: Geneva, Verdana, sans-serif;
+  font-family: "depot-new-web", Geneva, Verdana, sans-serif;
 }
 h1, h2, h3, h4, h4 + span {
-  font-family: "depot-new-web", 'Oswald', sans-serif;
+  font-family: "Oswald", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 h4, h4 + span {
   color: #696969;
@@ -16,6 +16,7 @@ main {
   min-width: 12.5em;
 }
 li {
+  font-size: 1.1em;
   margin-bottom: 7px;
 }
 li > div:first-child {
@@ -55,6 +56,9 @@ li span {
 }
 .experience h2 {
   margin-top: 5px;
+}
+.experience li {
+  font-size: 1em;
 }
 .bio > div > p {
   padding: .25em;
