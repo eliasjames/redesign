@@ -1,9 +1,56 @@
+h1, h2, h3, h4 {
+  font-size: 3em;
+}
+header .well, section .well {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
 body {
-  margin: 1em;
+  background-color: #fcfcfc;
+  color: #222;
+  margin: 0;
 }
 body * {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.025em;
 }
-h1, h2, h3, h4, h4 + span {
+header {
+  background-color: black;
+  font-size: 1.25em;
+  padding: 1em 0;
+}
+header .home-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .well {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+}
+nav {
+  flex-direction: column;
+  text-align: right;
+  width: 4em;
+}
+nav a {
+  color: #fc5400;
   font-family: Futura, "Oswald", "Lucida Grande", Arial, sans-serif;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+}
+section .well {
+  max-width: 600px;
+}
+.logo {
+  height: 60px;
+  width: 180px;
+}
+.picture {
+  height: 100px;
+  width: 100px;
 }
