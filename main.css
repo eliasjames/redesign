@@ -1,19 +1,17 @@
-h1, h2, h3, h4 {
-  font-size: 3em;
+body {
+  background-color: #fcfcfc;
+  color: #222;
+  font-family: Geneva, Helvetica, Arial, sans-serif;
+  font-size: 1.025em;
+  margin: 0;
+}
+h1, h2, h3, h4, nav a {
+  font-family: Futura, "Oswald", "Lucida Grande", Arial, sans-serif;
 }
 header .well, section .well {
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
-}
-body {
-  background-color: #fcfcfc;
-  color: #222;
-  margin: 0;
-}
-body * {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.025em;
 }
 header {
   background-color: black;
@@ -26,6 +24,7 @@ header .home-links {
   align-items: center;
 }
 header .well {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   max-width: 700px;
@@ -37,7 +36,6 @@ nav {
 }
 nav a {
   color: #fc5400;
-  font-family: Futura, "Oswald", "Lucida Grande", Arial, sans-serif;
   text-decoration: none;
 }
 nav a:hover {
