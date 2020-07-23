@@ -13,10 +13,12 @@ header .well, section .well {
   max-width: 800px;
   width: 80%;
 }
+header .well {
+  padding: 1em 0;
+}
 header {
   background-color: black;
   font-size: 1.25em;
-  padding: 1em 0;
 }
 header .home-links {
   display: flex;
@@ -51,4 +53,10 @@ section .well {
 .picture {
   height: 100px;
   width: 100px;
+}
+.home-links .picture {
+  border-radius: 5em;
+}
+.home-links .text {
+  margin-left: .5em;
 }
