@@ -46,7 +46,7 @@ nav a:hover {
 section .well {
   max-width: 600px;
 }
-.logo {
+.logo.text {
   height: 60px;
   width: 180px;
 }
@@ -56,7 +56,8 @@ section .well {
 }
 .home-links .picture {
   border-radius: 5em;
+  margin-right: .5em;
 }
-.home-links .text {
-  margin-left: .5em;
+.home-links {
+  min-height: 100px;
 }
