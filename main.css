@@ -1,3 +1,14 @@
+/*
+  slate blue: #33386a;
+  dark blue: #1c214d;
+  green: #566a33;
+  orange: #fc5400;
+  off-white: #fcfcfc;
+  off-black: #222;
+*/
+a {
+  color: #33386a;
+}
 body {
   background-color: #fcfcfc;
   color: #222;
@@ -37,8 +48,11 @@ nav {
   width: 4em;
 }
 nav a {
-  color: #fc5400;
+  color: #1a2deb;
   text-decoration: none;
+}
+nav a.active {
+  color: #fc5400;
 }
 nav a:hover {
   color: white;
