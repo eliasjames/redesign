@@ -25,3 +25,14 @@ const articles = [
     "shortName": "My Top Records: Chico Hamilton’s 'The Dealer'"
   }
 ];
+
+document.addEventListener("DOMContentLoaded", ()=>{
+  const writingList = document.querySelector("#writing-list");
+  articles.forEach(e => {
+    const eachLI = document.createElement("li");
+    eachLI.innerHTML = `
+      ${ e.category }: <a href="${ e.link }">${ e.shortName }</a>
+    `;
+    writingList.appendChild(eachLI);
+  });
+});
