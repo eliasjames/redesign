@@ -2,7 +2,7 @@ const articles = [
   {
     "category": "music",
     "date": 20160310,
-    "link": "://medium.com/@eliasjudas/top-records-the-dealer-51797722eea3",
+    "link": "https://medium.com/@eliasjudas/top-records-the-dealer-51797722eea3",
     "shortName": "My Top Records: Chico Hamilton’s 'The Dealer'"
   },
   {
