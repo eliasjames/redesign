@@ -1,6 +1,9 @@
 html {
   min-width: 320px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 664px) {
   .home-links .picture { display: none; }
+}
+@media only screen and (min-width: 664px) and (max-width: 768px) {
+  header .well { width: 90%; }
 }

@@ -1,5 +1,28 @@
+.logo.image { 
+  background-color: #fcfcfc;
+  font-size: 2.5em;
+  padding: .125em
+}
 .logo.text {
   font-family: monospace;
-  font-size: 2em;
+  font-size: 2.25em;
   text-transform: lowercase;
+  margin-bottom: .1em;
+}
+.logo.beta {
+  font-weight: bolder;
+  font-size: 1.125em;
+  margin-left: .325em;
+}
+.well #mc_embed_signup form {
+  background-color: #fcfcfc;
+  padding: 0;
+}
+h3#signup {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 664px) {
+  .home-links .logo.text { display: none; }
+  .logo.image { margin-right: .125em; }
+  .logo.beta { margin-left: 0; }
 }
